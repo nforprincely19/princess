@@ -19,7 +19,7 @@ gap: 5px;
 }
 header{
    display: flex;
-   gap: 50%;
+   gap: 72%;
    background-color: #3c3a39;
    padding: 20px 10px;
 }
@@ -28,3 +28,45 @@ header{
     font-size: 20px;
     text-decoration: none;
 }
+/*implementingmobile menu active mode*/
+.mobile-menu.active p:nth-child(1){
+   rotate: 45deg;
+   position: relative;
+   bottom: -9px;
+}
+.mobile-menu.active p:nth-child(2){
+   background: transparent;
+}
+.mobile-menu.active p:nth-child(3){
+   rotate: -45deg;
+   position: relative;
+   top: -9px;
+}
+/*implementing desktop menu active mode*/
+.desktop-menu.active{
+    display: block;
+}
+.desktop-menu.active li:nth-child(4){
+    display: none;
+}
+
+.desktop-menu.active{ 
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    position: fixed;
+    z-index: 1000;
+    background-color: #3c3a39;
+    left: 0;
+    width: 100%;
+    padding: 100px 10px;
+}
+.desktop-menu.active li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-bottom: 1px solid grey;
+}
+                                                                   
