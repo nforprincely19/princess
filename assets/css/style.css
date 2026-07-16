@@ -69,4 +69,49 @@ header{
     font-size: 30px;
     border-bottom: 1px solid grey;
 }
-                                                                   
+/*hero section styling for mobile*/
+.desktop-icons,.hero-desk-bg{
+    display: none;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1c1a19;
+    padding: 120px 0px 15px;
+}                       
+.greetings{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}   
+.hero h1{
+    font-size: 56px;
+    color: #ff6b00;
+} 
+.hero h2{
+    color: #fff;
+    font-size: 30px;
+}
+.hero p{
+    color: white;
+    font-size: 18px;
+} 
+.mobile-icons ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.hero-bg{
+ display: flex;
+ justify-content: end;
+ margin-top: -250px;   
+}
+.mobile-icon ul li a img{
+    width: 50px;
+}
+.hero-bg{
+    display: flex;
+    justify-content: end;
+    margin-top: -250px;
+}
