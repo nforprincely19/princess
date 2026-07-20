@@ -52,7 +52,7 @@ header{
 
 .desktop-menu.active{ 
     display: flex;
-    height: 100vh;
+    height: 448px;
     flex-direction: column;
     gap: 20px;
     list-style: none;
@@ -115,3 +115,249 @@ header{
     justify-content: end;
     margin-top: -250px;
 }
+/*projects section styling for mobile*/
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.projects_heading{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.projects_heading h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.projects_heading p{
+    padding: 1px 15px;
+    background-color: gray;
+}
+.iso_card{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 327px;
+    border-bottom-right-radius: 20px;/*personal touch*/
+}
+.iso_card h3{
+    font-size: 30px;
+}
+.iso_card p{
+    font-size: 20px;
+}
+.iso_card ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.iso_card ul li{
+    border: 1px solid;
+    padding: 5px 10px;
+}
+.iso_card button{
+    background-color: #ff6b00;
+    color: white;
+    width: 110px;
+    font-size: 20px;
+    border: none;
+    padding: 10px 0;
+    border-top-right-radius: 15px;
+}
+.sim_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sim_card{
+    border: 1px solid black;
+    width: 327px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../images/similar_bg.svg);
+    gap: 15px;
+    align-items: center;
+}
+.sim_card h3{
+    font-size: 30px;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+}
+.sim_card p{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.sim_card ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    
+}
+.sim_card ul{
+    display: flex;
+    gap: 10px;
+    list-style: 18px;
+}
+.sim_card ul li{
+    border: 1px solid;
+    padding: 5px;
+    color: #fff;
+    background-color: grey;
+    opacity: 60%;
+}
+.sim_card button{
+    background-color: #ff6b00;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    margin-top: 170px;
+    bottom: 0;
+}
+/*add about section styling for mobile*/
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #1c1a19;
+    gap: 40px;
+}
+.solo_card{
+   border: 370px;
+}
+.solo_card_txt{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+.solo_card_txt h3{
+    font-size: 52px;
+    color: #ff6b00;
+}
+.solo_card_txt p{
+    font-size: 20px;
+    color: #fff;
+}
+.solo_card_txt button{
+    background-color: #ff6b00;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 15px 0;
+}
+.solo_card_img{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.solo_card_img p{
+    padding: 1px;
+    background-color: gray;
+    width: 100%;
+}
+.multi_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.multi_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 327px;
+    color: #fff;
+    gap: 30px;
+}
+.multi_card span{
+    display: flex;
+    gap: 10px;
+}
+.multi_card span h3{
+    font-size: 25px;
+}
+.multi_card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+.multi_card ul li{
+    font-size: 20px;
+}
+/*contact section styling*/
+.contact_me{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px 60px;
+    background-color: #fff;
+}
+.contact_me p{
+    font-size: 32px;
+    color: #172b4d;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contact-form input,
+.contact-form textarea{
+    border: none;
+    border-bottom: 1px solid #dbd8d7;
+    padding: 12px 0;
+    font-size: 16px;
+    outline: none;
+    font-family: inherit;
+}
+.contact-form textarea{
+    border: 1px solid #dbd8d7;
+    border-radius: 4px;
+    padding: 10px;
+    resize: vertical;
+}
+.contact-form textarea::placeholder{
+    color: #979493;
+}
+.contact-form button{
+    background-color: #ff6b00;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    width: fit-content;
+    font-size: 17px;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 15px 0;
+}
+
+.iso_card ul li{
+    border-radius: 5px 0;
+}
+.sim_card ul li{
+    border-radius: 5px 0;
+    background: #ff6b00;
+}
+.sim_card{
+  border-radius: 20px 0;  
+}
+  
