@@ -15,9 +15,9 @@
 
 # 📖 Portfolio Project: Desktop version<a name="about-project"></a>
 
-This webpage shows a sneak peek into the project I have developed and deployed, showcasing my skills in HTML and CSS. A mobile and desktop responsive portfolio landing page. Please watch this [introductory video](https://www.loom.com/share/fea0296fdf674e5e9debfb5799d64564?sid=d508f8af-d3b0-4062-acdd-23e586a512f0) to learn more about this project.
+This webpage shows a sneak peek into the project I have developed and deployed, showcasing my skills in HTML and CSS. A mobile and desktop responsive portfolio landing page. Please watch this [introductory video](#) to learn more about this project.
 
-**[Desktop Portfolio Project]** is an HTML and CSS project
+**[Princess Portfolio Project]** is an HTML and CSS project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -25,6 +25,8 @@ This webpage shows a sneak peek into the project I have developed and deployed, 
 
 - HTML
 - CSS
+- JavaScript
+- git/github
 
 ### Key Features <a name="key-features"></a>
 - **A desktop responsive page with a minimum width of 375px**
@@ -38,7 +40,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Visual Studio Code
+- A text editor such as Visual Studio Code
 - Web browser such as chrome
 
 ### Setup
@@ -46,8 +48,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd Ngala-Portfolio
-  git clone https://github.com/ngalamac/Ngala-Portfolio.git
+  cd princess-Portfolio
+  git clone (https://github.com/nforprincely19/princess)
 ```
 
 ### Install
@@ -55,7 +57,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Ngala-Portfolio
+  cd Princess-Portfolio
   npm install
 ```
 
@@ -79,14 +81,15 @@ You can deploy this project using:
   gh-pages
   netlify
   vercel
+Render
 ```
-You can click on this link to [view site](https://ngalamac.github.io/Ngala-Portfolio/) and examine its features.
+You can click on this link to [view site](https://github.com/nforprincely19/princess) and examine its features.
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ngala Mac**
+👤 **NFOR PRINCESS**
 
-- GitHub: [ngalamac](https://github.com/ngalamac/Ngala-Portfolio.git)
-- LinkedIn: [Ngala Mac](https://www.linkedin.com/in/ngala-mac-872a65220/)
+- GitHub: [nforprincely19](https://github.com/nforprincely19/princess)
+- LinkedIn: [Nfor princess]()
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -108,4 +111,4 @@ I give thanks to Microverse community for investing in me. I am looking forth to
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
