@@ -25,8 +25,8 @@ This webpage shows a sneak peek into the project I have developed and deployed, 
 
 - HTML
 - CSS
-- Git/Github
 - JavaScript
+- git/github
 
 ### Key Features <a name="key-features"></a>
 - **A desktop responsive page with a minimum width of 375px**
@@ -40,7 +40,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- text editor such as Visual Studio Code
+- A text editor such as Visual Studio Code
 - Web browser such as chrome
 
 ### Setup
@@ -48,8 +48,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd Princess-Portfolio
-  git clone https://github.com/nforprincely19/princess.git
+  cd princess-Portfolio
+  git clone (https://github.com/nforprincely19/princess)
 ```
 
 ### Install
@@ -81,15 +81,15 @@ You can deploy this project using:
   gh-pages
   netlify
   vercel
-  Render
+Render
 ```
-You can click on this link to [view site](#) and examine its features.
+You can click on this link to [view site](https://github.com/nforprincely19/princess) and examine its features.
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Nfor Princely**
+👤 **NFOR PRINCESS**
 
-- GitHub: [nforprincely19]()
-- LinkedIn: [Nfor princely]()
+- GitHub: [nforprincely19](https://github.com/nforprincely19/princess)
+- LinkedIn: [Nfor princess]()
 
 ## 🔭 Future Features <a name="future-features"></a>
 
